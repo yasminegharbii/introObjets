@@ -106,7 +106,7 @@ var user = {
 ajouterNomComplet(user);
 console.log(user);
 
-// ex 10 
+// ex 10
 
 function ajouterProprieteTableau(objet, key, tableau) {
   objet[key] = tableau;
@@ -118,10 +118,32 @@ var user = {
   nomDeFamille: "gharbi",
   age: 25,
 };
-var hobbies = ["music", "singing"]
+var hobbies = ["music", "singing"];
 ajouterProprieteTableau(user, "skills", hobbies);
 console.log(user);
 
+// ex11 
+
 function afficherToutesLesProprietes(objet) {
+  for (var key in objet) {
+    console.log(objet[key]);
+  }
+}
+var user = {
+  prenom: "Yass",
+  nomDeFamille: "gharbi",
+  age: 25,
+};
+afficherToutesLesProprietes(user);
+console.log(user);
+
+// PLUS DE PRATIQUE
+
+// EX 1
+
+function supprimerNombresPlusGrandsQue(num, objet) {
+
   
+
+
 }
